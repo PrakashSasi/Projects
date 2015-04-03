@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Gallerised | Gallery</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout.css" type="text/css" />
+<script type="text/javascript" src="jquery.min.js"></script>
+<!-- prettyPhoto -->
+<link rel="stylesheet" href="prettyPhoto.css" type="text/css" />
+<script type="text/javascript" src="jquery.prettyPhoto.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $("a[rel^='prettyPhoto']").prettyPhoto({
+        theme: 'dark_rounded',
+        overlay_gallery: false,
+        social_tools: false
+    });
+});
+</script>
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="header" style="width:950px;height:50px;border:6px ridge grey;" >
+    <div id="topnav">
+      <ul>
+	<li class="active"><a href="Contact.html">About</a>
+        <li><a href="Gallery.html">Gallery</a>
+        <li><a href="Edit1.html">Edit</a>
+        <li ><a href="index.html">Homepage</a>
+      </ul>
+    </div>
+<img src="images/pd.bmp" align="left">
+    <div class="fl_left">
+      <h1><a href="index.html">PixelDesign</a></h1>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<br><br>
+
+<div   style="align:left; margin-left:10px; width=50%  ; height="90%; background-color:grey; ">
+  <div id="right_content">
+<center>
+      <p style="font-family:Times New Romen; font-size:20px;" >
+               Prakash<br>
+               Web Designer <br>
+               praksh$editor@gmail.com<br>
+               Anna University <br>
+               Chennai -25 <br>
+</p>
+<img src="images/contact.png" align="center">
+</center>
+      </div>
+    </div>
+
+<form action="" method="post" class="dark-matter">
+    <h1>Contact Form 
+        <span>Please fill all the texts in the fields.</span>
+    </h1>
+    <label>
+        <span>Your Name :</span>
+        <input id="name" type="text" name="name" placeholder="Your Full Name" />
+    </label>
+    
+    <label>
+        <span>Your Email :</span>
+        <input id="email" type="email" name="email" placeholder="Valid Email Address" />
+    </label>
+    
+    <label>
+        <span>Message :</span>
+        <textarea id="message" name="message" placeholder="Your Message to Us"></textarea>
+    </label> 
+   
+     <label>
+        <span>&nbsp;</span> 
+        <input type="button" class="button" value="Send" /> 
+    </label>    
+</form>
+</div>
+<br><hr>
+<div class="wrapper col5">
+  <div id="footer">
+   <center>Pixel Design@mail.com </center>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Gallerised | Gallery</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout.css" type="text/css" />
+<script type="text/javascript" src="jquery.min.js"></script>
+<link rel="stylesheet" href="prettyPhoto.css" type="text/css" />
+<script type="text/javascript" src="jquery.prettyPhoto.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $("a[rel^='prettyPhoto']").prettyPhoto({
+        theme: 'dark_rounded',
+        overlay_gallery: false,
+        social_tools: false
+    });
+});
+</script>
+<style>
+* {margin: 0; padding: 0;}
+    body {font-family: Open Sans; font-size: 13px; font-weight: 300;}
+    a {color: #000; text-decoration: none;}
+    h1 {padding: 60px 0; text-align: center;}
+      
+        .wrap {margin: 60px auto; text-align: center;}
+        
+    .img-zoom {
+      float: left;
+      width:310px;
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      -o-transition: all .2s ease-in-out;
+      -ms-transition: all .2s ease-in-out;
+    }
+ 
+    .transition {
+      -webkit-transform: scale(2); 
+      -moz-transform: scale(2);
+      -o-transform: scale(2);
+      transform: scale(2);
+    }
+hr { 
+   
+    margin-left:189px;
+    margin-right: 189px;
+    border-style: dotted;
+    border-width: 1px;
+} 
+</style>
+</head>
+<body id="top" >
+<div class="wrapper col1">
+  <div id="header" style="width:950px;height:50px;border:6px ridge grey;" >
+     <div id="topnav">
+      <ul>
+    <li><a href="Contact.html">About</a>
+        <li class="active"><a href="Gallery.html">Gallery</a>
+        <li><a href="Edit1.html">Edit</a>
+        <li ><a href="index.html">Homepage</a>
+      </ul>
+    </div>
+    <img src="images/pd.bmp" align="left">
+    <div class="fl_left">
+      <h1><a href="index.html">PixelDesign</a></h1>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<hr >
+
+<div class="wrapper col4">
+  <div id="container">
+    <div class="gallery">
+      <ul>
+             <li><a rel="prettyPhoto[gallery1]" href="images/1.jpg" title="Childern">
+             <img src="images/1.jpg" alt="Childerns" /></a></li>
+
+        <li><a rel="prettyPhoto[gallery1]" href="images/2.jpg" title="Childern">
+        <img src="images/2.jpg" alt="Childerns" /></a></li>
+
+        <li><a rel="prettyPhoto[gallery1]" href="images/3.jpg" title="Childern">
+        <img src="images/3.jpg" alt="Childerns" /></a></li>
+
+        <li><a rel="prettyPhoto[gallery1]" href="images/4.jpg" title="Childern">
+        <img src="images/4.jpg" alt="Childerns" /></a></li>
+
+        <li class="last"> <a rel="prettyPhoto[gallery1]" href="images/5.jpg" title="Childern">
+        <img src="images/5.jpg" alt="Childerns" /></a></li>
+
+        <li><a rel="prettyPhoto[gallery1]" href="images/6.jpg" title="Flower">
+        <img src="images/6.jpg" alt="Flowers" /></a></li>
+
+        <li><a rel="prettyPhoto[gallery1]" href="images/7.jpg" title="Flower">
+        <img src="images/7.jpg" alt="Flowers" /></a></li>
+
+        <li><a rel="prettyPhoto[gallery1]" href="images/8.jpg" title="Flower">
+        <img src="images/8.jpg" alt="Flowers" /></a></li>
+
+        <li><a rel="prettyPhoto[gallery1]" href="images/9.jpg" title="Flower">
+        <img src="images/9.jpg" alt="Flowers" /></a></li>
+
+        <li class="last"><a rel="prettyPhoto[gallery1]" href="images/10.jpg" title="Flower">
+        <img src="images/10.jpg" alt="Flowers" /></a></li>
+
+      <li><a rel="prettyPhoto[gallery1]" href="images/11.jpg" title="Bike">
+        <img src="images/11.jpg" alt="Bikes" /></a></li>
+
+        <li><a rel="prettyPhoto[gallery1]" href="images/12.jpg" title="Bike">
+        <img src="images/12.jpg" alt="Bikes" /></a></li>
+
+        <li><a rel="prettyPhoto[gallery1]" href="images/13.jpg" title="Bike">
+        <img src="images/13.jpg" alt="Bikes" /></a></li>
+
+        <li><a rel="prettyPhoto[gallery1]" href="images/14.jpg" title="Bike">
+        <img src="images/14.jpg" alt="Bikes" /></a></li>
+
+        <li class="last"><a rel="prettyPhoto[gallery1]" href="images/15.jpg" title="Bike">
+        <img src="images/15.jpg" alt="Bikes" /></a></li>
+      
+      </ul>
+      <br class="clear" />
+    </div>
+  </div>
+</div>
+<div class="wrapper col5">
+  <div id="footer">
+   <center>Pixel Design@mail.com </center>
+  </div>
+</div>
+</body>
+</html>
